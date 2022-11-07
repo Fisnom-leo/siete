@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/siete/static/css/main.ff3eb89c.css",
+    "main.js": "/siete/static/js/main.19034a82.js",
+    "static/js/787.1b72db76.chunk.js": "/siete/static/js/787.1b72db76.chunk.js",
+    "index.html": "/siete/index.html",
+    "main.ff3eb89c.css.map": "/siete/static/css/main.ff3eb89c.css.map",
+    "main.19034a82.js.map": "/siete/static/js/main.19034a82.js.map",
+    "787.1b72db76.chunk.js.map": "/siete/static/js/787.1b72db76.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ff3eb89c.css",
+    "static/js/main.19034a82.js"
+  ]
+}
