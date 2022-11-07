@@ -10,9 +10,9 @@ function skills() {
         
 
         <ul>
-  <li>Anything</li>
-  <li>Anything</li>
-  <li>Anything</li>
+  <li>HTM</li>
+  <li>CSS</li>
+  <li>Java Script</li>
 </ul>
 </>
         

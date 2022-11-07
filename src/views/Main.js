@@ -3,13 +3,10 @@ function Main() {
     return (
         <div>
             <h1>Maine</h1>
+            <h2> Welcom to The Main</h2>
             
            
-            <ul>
-                <li>Anything</li>
-                <li>Anything</li>
-                <li>Anything</li>
-            </ul>
+            
         </div>
     );
 }

@@ -1,9 +1,12 @@
+import { BrowserRouter, Route, Routes , Link} from "react-router-dom";
+
 import Main from "./views/Main";
 import LebensLauf from "./views/lebenslauf";
 import Skills from "./views/skills";
 import  Info from "./views/info";
+import NotFound from "./views/Notfound";
 
-import { BrowserRouter, Route, Routes , Link} from "react-router-dom";
+
 import "./App.css";
 
 const path = window.location.pathname;
@@ -19,6 +22,7 @@ function App() {
             <Link to="/info">info</Link>---
             <Link to ="/lebenslauf">lebensLauf</Link>---
             <Link to ="/skills">skills</Link>---
+            <Link to ="/Main">Main</Link>---
             </div>
                 <Routes>
                     <Route path="/lebensLauf" element={<LebensLauf />} />
@@ -26,6 +30,8 @@ function App() {
                     <Route path="/info" element={<Info />} />
                     <Route path="/Main" element={<Main />} />
                     <Route exact path="/" element={<Main />} />
+                    <Route path="*" element={<NotFound />}  />
+
                 </Routes>
             </BrowserRouter>
         </div>
