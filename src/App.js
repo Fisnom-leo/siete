@@ -18,11 +18,11 @@ function App() {
           
             <BrowserRouter>
             <div className="nav">  
-            <Link to="/skills">Skills</Link>---
+            <Link to ="/Main">Main</Link>---
             <Link to="/info">info</Link>---
             <Link to ="/lebenslauf">lebensLauf</Link>---
             <Link to ="/skills">skills</Link>---
-            <Link to ="/Main">Main</Link>---
+            
             </div>
                 <Routes>
                     <Route path="/lebensLauf" element={<LebensLauf />} />
